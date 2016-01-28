@@ -1,0 +1,6 @@
+---
+name: hello-world
+deployable: hello-web:latest
+
+ports:
+  web: 80/http

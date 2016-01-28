@@ -1,0 +1,12 @@
+---
+name: hello-world
+clusters:
+  web:
+    services:
+      -
+        breed:
+          ref: hello-world
+        scale:
+          cpu: 1
+          memory: 64M
+          instances: 1
