@@ -1,8 +1,7 @@
 ---
 name: das-gateway
 port: 80/http
-active: true
 routes:
-  71c3718a-3fcb-4cea-87a8-6007337cd37e/web/web:
+  hello-world:1/web/web:
     filters:
       condition: path -i /foo
